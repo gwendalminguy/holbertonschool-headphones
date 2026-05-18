@@ -69,7 +69,7 @@
 
 @font-face {
     font-family: "Icon";
-    src: url(assets/fonts/holberton_school-icon.ttf) format("opentype");
+    src: url(assets/fonts/icon.ttf) format("opentype");
     font-style: normal;
     font-display: swap;
 }
