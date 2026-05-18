@@ -1,2 +1,2 @@
-# holbertonschool-headphones
-This repository focuses on implementing a full webpage based on a Figma file.
+## Headphones
+This is the Headphones repository.
