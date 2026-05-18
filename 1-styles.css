@@ -12,6 +12,7 @@
 
     --font-primary: "Source Sans Pro", sans-serif;
     --font-display: "Spin Cycle OT", cursive;
+    --font-icon: "Icon";
 
     --font-size-x-small: 1rem;
     --font-size-small: 1.2rem;
@@ -62,6 +63,13 @@
 @font-face {
     font-family: "Spin Cycle OT";
     src: url(assets/fonts/spin-cycle-ot.otf) format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Icon";
+    src: url(assets/fonts/icon.ttf) format("opentype");
     font-style: normal;
     font-display: swap;
 }
@@ -244,5 +252,11 @@ section .what-we-do-item {
 }
 
 section .what-we-do-item svg {
+    color: var(--color-primary);
+}
+
+section .what-we-do-item .text-icon {
+    font-family: var(--font-icon);
+    font-size: var(--font-size-xx-large);
     color: var(--color-primary);
 }
