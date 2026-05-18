@@ -103,6 +103,10 @@ h1 {
 }
 
 h2 {
+    font-size: var(--font-size-large);
+}
+
+h3 {
     font-size: var(--font-size-small);
 }
 
