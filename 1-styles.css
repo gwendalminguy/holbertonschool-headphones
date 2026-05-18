@@ -248,6 +248,11 @@ section .what-we-do-elements {
     gap: 75px;
 }
 
+section .what-we-do-elements p {
+    font-size: var(--font-size-x-small);
+    line-height: 1.8;
+}
+
 section .what-we-do-group {
     display: flex;
     flex-direction: row;
