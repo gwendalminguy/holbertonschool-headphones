@@ -244,8 +244,21 @@ section .what-we-do-elements {
     gap: 75px;
 }
 
-@media (max-width: 480px) {
+section .what-we-do-group {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+@media (max-width: 768px) {
     section .what-we-do-elements {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    section .what-we-do-group {
         display: flex;
         flex-direction: column;
     }
