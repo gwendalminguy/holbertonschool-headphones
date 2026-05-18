@@ -229,7 +229,7 @@ section.section-what-we-do {
     padding: 100px;
 }
 
-section.section-what-we-do p {
+section.section-what-we-do .what-we-do-content p {
     max-width: 650px;
     font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-regular);
@@ -249,10 +249,6 @@ section .what-we-do-item {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
-
-section .what-we-do-item svg {
-    color: var(--color-primary);
 }
 
 section .what-we-do-item .text-icon {
