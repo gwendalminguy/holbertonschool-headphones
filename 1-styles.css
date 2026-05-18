@@ -244,6 +244,13 @@ section .what-we-do-elements {
     gap: 75px;
 }
 
+@media (max-width: 480px) {
+    section .what-we-do-elements {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 section .what-we-do-item {
     width: 250px;
     display: flex;
