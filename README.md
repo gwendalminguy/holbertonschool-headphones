@@ -10,11 +10,11 @@ The project aims at implementing a webpage from scratch and without any library,
 
 ## Requirements
 
-- mobile breakpoint: 480px
-- tablet breakpoint: 768px
-- hover/active links: color #FF6565
-- hover/active buttons: opacity 0.9
-- max width of content: 1000px centered
+- Mobile Breakpoint: **480px**
+- Tablet Breakpoint: **768px**
+- Hover/Active Color: **#FF6565**
+- Hover/Active Opacity: **90%**
+- Max Width: **1000px**
 
 ## Structure
 
