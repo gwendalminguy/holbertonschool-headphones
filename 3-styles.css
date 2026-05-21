@@ -382,7 +382,7 @@ section.section-contact-us button {
     margin-bottom: 20px;
 }
 
-form {
+form.form {
     width: 100%;
     max-width: 450px;
     display: flex;
@@ -421,4 +421,6 @@ textarea {
     margin-bottom: 25px;
     height: 35px;
     min-width: 450px;
+    max-width: 450px;
+    min-height: 35px;
 }
