@@ -403,7 +403,6 @@ form {
     align-items: flex-start;
     border: none;
     padding: 0 0 2rem;
-    gap: 10px;
 }
 
 label {
@@ -414,7 +413,8 @@ label {
     font-weight: var(--font-weight-bold);
 }
 
-input {
+input,
+textarea {
     width: 100%;
     position: relative;
     line-height: 1;
@@ -423,4 +423,6 @@ input {
     outline: 0;
     border-width: 0 0 0.25px;
     margin-bottom: 25px;
+    height: 35px;
+    min-width: 450px;
 }
