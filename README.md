@@ -1,14 +1,14 @@
-# Headphones
+## Headphones
 
 This repository focuses on implementing a full webpage based on a Figma file.
 
 <br><img src="assets/images/headphones_desktop.png" width="1000" style="display:block; margin:0 auto;"><br>
 
-## Description
+### Description
 
 The project aims at implementing a webpage from scratch and without any library, using pure HTML/CSS only.
 
-## Requirements
+### Requirements
 
 - Mobile Breakpoint: **480px**
 - Tablet Breakpoint: **768px**
@@ -16,7 +16,7 @@ The project aims at implementing a webpage from scratch and without any library,
 - Hover/Active Opacity: **90%**
 - Max Width: **1000px**
 
-## Structure
+### Structure
 
 * [assets/](https://github.com/gwendalminguy/holbertonschool-headphones/tree/main/assets), the directory containing images and fonts.
 
